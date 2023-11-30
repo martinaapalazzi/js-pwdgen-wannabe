@@ -1,17 +1,16 @@
-let text = prompt {
-    "Come ti chiami?"
-}
 
-let stringUno = "Martina"
+const nome = prompt("Come ti chiami?")
+    
+const cognome = prompt("Qual'è il tuo cognome?")
 
-let text = prompt {
-    "Qual'è il tuo cognome?"
-}
+const colore = prompt("Qual'è il tuo colore preferito?")
 
-let stringDue = "Palazzi"
 
-let text = prompt {
-    "Qual'è il tuo colore preferito?"
-}
+ const password = nome + cognome + colore + 114
 
-let stringTre = "Rosso"
+console.log(password)
+
+ document.writeln ( `${password}` )
+
+const myElement = document.getElementById('target')
+myElement.innerHTML = password;
